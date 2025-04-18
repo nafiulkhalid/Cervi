@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22D808B2DB24B4900CCC6F6 /* CerviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D808A2DB24B4900CCC6F6 /* CerviApp.swift */; };
+		C22D808D2DB24B4900CCC6F6 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D808C2DB24B4900CCC6F6 /* ReportView.swift */; };
+		C22D808F2DB24B4B00CCC6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22D808E2DB24B4B00CCC6F6 /* Assets.xcassets */; };
+		C22D80922DB24B4B00CCC6F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22D80912DB24B4B00CCC6F6 /* Preview Assets.xcassets */; };
+		C22D80992DB24B8100CCC6F6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D80982DB24B8100CCC6F6 /* ImagePicker.swift */; };
+		C22D809C2DB24C9200CCC6F6 /* cancer_asset in Resources */ = {isa = PBXBuildFile; fileRef = C22D809A2DB24C9200CCC6F6 /* cancer_asset */; };
+		C22D809D2DB24C9200CCC6F6 /* normal_asset in Resources */ = {isa = PBXBuildFile; fileRef = C22D809B2DB24C9200CCC6F6 /* normal_asset */; };
+		C22D809F2DB253B800CCC6F6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D809E2DB253B800CCC6F6 /* HomeView.swift */; };
+		C22D80A22DB257DA00CCC6F6 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C22D80A12DB257DA00CCC6F6 /* ConfettiSwiftUI */; };
+		C22D80A42DB25F3300CCC6F6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D80A32DB25F3300CCC6F6 /* MainTabView.swift */; };
+		C22D80A62DB261D500CCC6F6 /* DoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D80A52DB261D500CCC6F6 /* DoctorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C22D80872DB24B4900CCC6F6 /* Cervi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cervi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22D808A2DB24B4900CCC6F6 /* CerviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerviApp.swift; sourceTree = "<group>"; };
+		C22D808C2DB24B4900CCC6F6 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		C22D808E2DB24B4B00CCC6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22D80912DB24B4B00CCC6F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C22D80982DB24B8100CCC6F6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C22D809A2DB24C9200CCC6F6 /* cancer_asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cancer_asset; sourceTree = "<group>"; };
+		C22D809B2DB24C9200CCC6F6 /* normal_asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = normal_asset; sourceTree = "<group>"; };
+		C22D809E2DB253B800CCC6F6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C22D80A32DB25F3300CCC6F6 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C22D80A52DB261D500CCC6F6 /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22D80842DB24B4900CCC6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22D80A22DB257DA00CCC6F6 /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22D807E2DB24B4900CCC6F6 = {
+			isa = PBXGroup;
+			children = (
+				C22D809A2DB24C9200CCC6F6 /* cancer_asset */,
+				C22D809B2DB24C9200CCC6F6 /* normal_asset */,
+				C22D80892DB24B4900CCC6F6 /* Cervi */,
+				C22D80882DB24B4900CCC6F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22D80882DB24B4900CCC6F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22D80872DB24B4900CCC6F6 /* Cervi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22D80892DB24B4900CCC6F6 /* Cervi */ = {
+			isa = PBXGroup;
+			children = (
+				C22D80A52DB261D500CCC6F6 /* DoctorView.swift */,
+				C22D80A32DB25F3300CCC6F6 /* MainTabView.swift */,
+				C22D809E2DB253B800CCC6F6 /* HomeView.swift */,
+				C22D80982DB24B8100CCC6F6 /* ImagePicker.swift */,
+				C22D808A2DB24B4900CCC6F6 /* CerviApp.swift */,
+				C22D808C2DB24B4900CCC6F6 /* ReportView.swift */,
+				C22D808E2DB24B4B00CCC6F6 /* Assets.xcassets */,
+				C22D80902DB24B4B00CCC6F6 /* Preview Content */,
+			);
+			path = Cervi;
+			sourceTree = "<group>";
+		};
+		C22D80902DB24B4B00CCC6F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C22D80912DB24B4B00CCC6F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22D80862DB24B4900CCC6F6 /* Cervi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22D80952DB24B4B00CCC6F6 /* Build configuration list for PBXNativeTarget "Cervi" */;
+			buildPhases = (
+				C22D80832DB24B4900CCC6F6 /* Sources */,
+				C22D80842DB24B4900CCC6F6 /* Frameworks */,
+				C22D80852DB24B4900CCC6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cervi;
+			packageProductDependencies = (
+				C22D80A12DB257DA00CCC6F6 /* ConfettiSwiftUI */,
+			);
+			productName = Cervi;
+			productReference = C22D80872DB24B4900CCC6F6 /* Cervi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22D807F2DB24B4900CCC6F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C22D80862DB24B4900CCC6F6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C22D80822DB24B4900CCC6F6 /* Build configuration list for PBXProject "Cervi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22D807E2DB24B4900CCC6F6;
+			packageReferences = (
+				C22D80A02DB257DA00CCC6F6 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = C22D80882DB24B4900CCC6F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22D80862DB24B4900CCC6F6 /* Cervi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22D80852DB24B4900CCC6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22D809D2DB24C9200CCC6F6 /* normal_asset in Resources */,
+				C22D809C2DB24C9200CCC6F6 /* cancer_asset in Resources */,
+				C22D80922DB24B4B00CCC6F6 /* Preview Assets.xcassets in Resources */,
+				C22D808F2DB24B4B00CCC6F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22D80832DB24B4900CCC6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22D80992DB24B8100CCC6F6 /* ImagePicker.swift in Sources */,
+				C22D809F2DB253B800CCC6F6 /* HomeView.swift in Sources */,
+				C22D808D2DB24B4900CCC6F6 /* ReportView.swift in Sources */,
+				C22D808B2DB24B4900CCC6F6 /* CerviApp.swift in Sources */,
+				C22D80A42DB25F3300CCC6F6 /* MainTabView.swift in Sources */,
+				C22D80A62DB261D500CCC6F6 /* DoctorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C22D80932DB24B4B00CCC6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C22D80942DB24B4B00CCC6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22D80962DB24B4B00CCC6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cervi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bu.Cervi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C22D80972DB24B4B00CCC6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cervi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bu.Cervi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22D80822DB24B4900CCC6F6 /* Build configuration list for PBXProject "Cervi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22D80932DB24B4B00CCC6F6 /* Debug */,
+				C22D80942DB24B4B00CCC6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22D80952DB24B4B00CCC6F6 /* Build configuration list for PBXNativeTarget "Cervi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22D80962DB24B4B00CCC6F6 /* Debug */,
+				C22D80972DB24B4B00CCC6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C22D80A02DB257DA00CCC6F6 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C22D80A12DB257DA00CCC6F6 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C22D80A02DB257DA00CCC6F6 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C22D807F2DB24B4900CCC6F6 /* Project object */;
+}
