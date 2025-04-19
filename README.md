@@ -40,8 +40,7 @@ This app is not a diagnostic tool and should not replace medical advice. It is m
 
 ---
 
-<img width="397" alt="wireframe" src="https://github.com/user-attachments/assets/69a76ee9-95b1-4240-a8fa-fca0f1f1e0c6" />
-
+![wireframe](https://github.com/user-attachments/assets/16b3ebff-3ef2-4362-aa35-a63d93634581)
 
 Made with 💙 using SwiftUI, CoreImage & MapKit
 
